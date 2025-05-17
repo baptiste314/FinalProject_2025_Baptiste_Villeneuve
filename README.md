@@ -4,6 +4,13 @@
 
 **ID:** baptiste.villeneuve
 
+## 0. Code Usage and Submission
+* This `README.md` file is the report
+* The submission file is in `outputs/submission.csv`
+* The neural network model is already trained, the file is in `models/nn_recommender_model.h5`. At some point the code checks if this file exists, if not it recreates the NN and train it (takes a lot of time).
+* The code checks if `data_final_project/KuaiRec (or Kuairec (2.0))/data` exists. If not, it download it from the google drive, unzip it and creates `data_final_project/KuaiRec (or Kuairec (2.0))/data`
+
+
 ## 1. Introduction
 
 **Problem explanation:** The goal of this project is to develop a personalized recommender system for short videos using the KuaiRec dataset. The main task was to predict user engagement, the `watch_ratio` (play duration / video duration), for user-video pairs.
