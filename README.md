@@ -5,6 +5,7 @@
 **ID:** baptiste.villeneuve
 
 ## 0. Code Usage and Submission
+* I used `python3.8` for this project, and I installed the libraries in `requirements.txt`
 * This `README.md` file is the report
 * The submission file is in `outputs/submission.csv`
 * The neural network model is already trained, the file is in `models/nn_recommender_model.h5`. At some point the code checks if this file exists, if not it recreates the NN and train it (takes a lot of time).
